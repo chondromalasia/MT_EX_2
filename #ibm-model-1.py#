@@ -82,6 +82,6 @@ while i_counter <= 1:
                 # go through all words e
                 for e_word in e_vocab:
                         s_total[e_word] = 0
-                        print e_word, s_total[e_word]
+                        print
 
         i_counter += 1
