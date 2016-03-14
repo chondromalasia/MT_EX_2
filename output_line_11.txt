@@ -1,0 +1,48 @@
+a {'a': 0.5}
+a {'a': 1.0}
+a {'a': 1.5}
+a {'a': 2.0}
+house {'a': 2.0, 'house': 0.5}
+house {'a': 2.0, 'house': 1.0}
+house {'a': 2.0, 'house': 1.5}
+house {'a': 2.0, 'house': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 0.5}
+the {'a': 2.0, 'house': 2.0, 'the': 1.0}
+the {'a': 2.0, 'house': 2.0, 'the': 1.5}
+the {'a': 2.0, 'house': 2.0, 'the': 2.0}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 0.5}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 1.0}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 1.5}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 0.5, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 1.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 1.5, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 0.5, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 1.0, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 1.5, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 0.5, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 1.0, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 1.5, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 0.5}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 1.0}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 1.5}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 0.5, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 1.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 1.5, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+a {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 0.5, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 1.0, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 1.5, 'the': 2.0, 'book': 2.0}
+house {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 0.5, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 1.0, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 1.5, 'book': 2.0}
+the {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 0.5}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 1.0}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 1.5}
+book {'a': 2.0, 'house': 2.0, 'the': 2.0, 'book': 2.0}
