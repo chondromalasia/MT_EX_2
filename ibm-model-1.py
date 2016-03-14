@@ -57,7 +57,11 @@ for e_word in e_vocab.keys():
 # i_counter counts the number of iterations
 i_counter = 1
 
+while i_counter <= 5:
+        # intialize count
+        for pair in count:
+                count[pair] = 0
 
-### Your implementation of the algorithm
-### The algorithm should perform 5 iterations
-### The output must look like the one showed in the exercise description :)
+        # initialize total
+        for word in total:
+                total[word] = 0
