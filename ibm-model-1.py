@@ -64,8 +64,9 @@ for e_word in e_vocab.keys():
 # i_counter counts the number of iterations
 i_counter = 1
 
-while i_counter <= 1:
+while i_counter <= 5:
         i_counter += 1
+        print 'sentence'
 
         # intialize count
         for pair in count:
@@ -88,19 +89,19 @@ while i_counter <= 1:
 
                         # go through all foreign words
                         for f_word in sent[0].split():
-                                e_f = e_word + f_word
                                 s_total[e_word] += t[e_f]
                                 
                 #get counts
-                for e_word in e_vocab:
-                       for f_word in f_vocab:
+                for e_word in sent[1].split():
+                       for f_word in sent[0].split():
                                e_f = e_word + f_word
                                count[e_f] += (t[e_f]/s_total[e_word])
-                               total[f_word] += (t[e_f]/s_total[e_word])
+                               total[word] += (t[e_f]/s_total[e_word])
 
-                # do the probabilities
-                for f_word in f_vocab:
-                        for e_word in e_vocab:
-                                e_f = e_word + f_word
-                                t[e_f] = (count[e_f] / total[f_word])
+        # do the probabilities
+        for f_word in sent[0].split:
+                for e_word in sent[1].split():
+                        e_f = e_word + f_word
+                        t[e_f] = (count[e_f] / total[word])
+                        print e_f, t[e_f]
                                
