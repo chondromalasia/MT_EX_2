@@ -1,8 +1,10 @@
-#!/usr/bin/python
-
+#!/usr/bin/env/ python
+# -*- coding: utf-8 -*-
 
 """
 In which we try to implement the IBM Model 1 algorithm
+Heath:
+use the = [(x,y) for x in x_list for y in also_list] construction
 """
 
 import itertools
@@ -62,11 +64,13 @@ for e_word in e_vocab.keys():
 		count[e_f] = 0
 
 # i_counter counts the number of iterations
-i_counter = 1
+i_counter = 0
+iterations = 5
 
 while i_counter <= 5:
         i_counter += 1
-        print 'sentence'
+        if i_counter == iterations:
+                print "==================LAST ITERATION=================="
 
         # intialize count
         for pair in count:
@@ -81,27 +85,23 @@ while i_counter <= 5:
 
         # and iterate through it
         for sent in all_sents:
-
-                # go through all words e
                 for e_word in sent[1].split():
-                        # initialize e
                         s_total[e_word] = 0
-
-                        # go through all foreign words
                         for f_word in sent[0].split():
+                                e_f = e_word + f_word
                                 s_total[e_word] += t[e_f]
-                                
-                #get counts
-                for e_word in sent[1].split():
-                       for f_word in sent[0].split():
-                               e_f = e_word + f_word
-                               count[e_f] += (t[e_f]/s_total[e_word])
-                               total[word] += (t[e_f]/s_total[e_word])
 
-        # do the probabilities
-        for f_word in sent[0].split:
                 for e_word in sent[1].split():
+                        for f_word in sent[0].split():
+                                e_f = e_word + f_word
+                                count[e_f] += (t[e_f]/s_total[e_word])
+                                total[f_word] += (t[e_f]/s_total[e_word])
+
+        for f_word in f_vocab:
+                for e_word in e_vocab:
                         e_f = e_word + f_word
-                        t[e_f] = (count[e_f] / total[word])
-                        print e_f, t[e_f]
-                               
+                        t[e_f] = count[e_f]/total[f_word]
+
+                        if i_counter == iterations:
+                                #print "t(", e_word, "|", f_word, "):\t", t[e_f]
+                                print 't({}|{:5}\t{:0f}'.format(e_word,f_word+"):", t[e_f])
